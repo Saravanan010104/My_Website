@@ -1,82 +1,58 @@
-Employee Management System
-A full-stack web application for managing employee records efficiently. This project allows users to perform CRUD operations, search employees by various criteria, and manage employee data securely.
+# Employee Management System
 
-🚀 Features
-Add Employee: Insert new employee records with details like ID, name, email, phone, address, DOB, and wedding date.
+A comprehensive full-stack web application designed for efficient employee record management with robust CRUD operations and advanced search capabilities.
 
-View Employees: Display all employee records in a tabular format with options to edit or delete.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JSP](https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white)
 
-Search Functionality:
+## 📋 Table of Contents
 
-Search by Name
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Database Schema](#database-schema)
+- [API Endpoints](#api-endpoints)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [License](#license)
 
-Search by Date of Birth
+## ✨ Features
 
-Search by Wedding Anniversary Date
+### Core Functionality
+- **Employee Management**: Complete CRUD (Create, Read, Update, Delete) operations
+- **Advanced Search**: Multi-criteria search capabilities
+- **Data Validation**: Client and server-side input validation
+- **Responsive Design**: User-friendly interface for easy navigation
 
-Responsive UI: Clean and user-friendly interface built with HTML and CSS.
+### Search Capabilities
+- 🔍 **Name-based Search**: Find employees by full or partial name
+- 🎂 **Birthday Search**: Locate employees by date of birth
+- 💍 **Anniversary Search**: Find employees by wedding anniversary date
 
-🛠️ Technologies Used
-Backend: Java, JSP, Servlets, JDBC
+## 🛠 Technology Stack
 
-Frontend: HTML, CSS
+### Backend
+- **Java 8+** - Core programming language
+- **JSP (JavaServer Pages)** - Server-side rendering
+- **Servlets** - Request handling and business logic
+- **JDBC** - Database connectivity
+- **MySQL** - Relational database management
 
-Database: MySQL
+### Frontend
+- **HTML5** - Markup structure
+- **CSS3** - Styling and layout
+- **Bootstrap** (Optional) - Responsive design framework
 
-Tools: Eclipse, VS Code, Git, GitHub
+### Tools & Platforms
+- **Eclipse/VS Code** - Development IDE
+- **Apache Tomcat** - Web server
+- **Git & GitHub** - Version control
+- **MySQL Workbench** - Database management
 
-Server: Apache Tomcat
-
-📸 Project Screenshots
-1. Home Page
-https://index%2520page.png
-Landing page with navigation options to Add, View, or Search employees.
-
-2. Add Employee
-https://addemployee.png
-Form to add a new employee with fields for personal and contact details.
-
-3. View Employees
-https://viewemployee.png
-Table displaying all employee records with Edit and Delete actions.
-
-4. Search by Name
-https://searchbyname.png
-Search employees by entering their full or partial name.
-
-5. Search by Date of Birth
-https://searchbydob.png
-Find employees based on their birth date.
-
-6. Search by Anniversary
-https://searchbyanniversaydate.png
-Search employees by their wedding anniversary date.
-
-📦 Database Schema
-The project uses a MySQL database with a table named employees containing columns such as:
-
-id, first_name, last_name, email, phone, dob, wedding_date, address, etc.
-
-🧩 How to Run
-Clone the repository:
-
-bash
-git clone https://github.com/your-username/employee-management-system.git
-Import the project in Eclipse or your preferred IDE.
-
-Set up MySQL database and update DBConnection.java with your credentials.
-
-Deploy the project on Apache Tomcat server.
-
-Access the application via:
-
-text
-http://localhost:8080/EmployeeManagement
-👨‍💻 Author
-Saravanan P
-
-Email: saravanan98july@gmail.com
-
-GitHub: [Your GitHub Profile Link]
-
-LinkedIn: [Your LinkedIn Profile Link]
+## 🏗 Architecture
