@@ -121,7 +121,16 @@
             text-align: center;
             position: relative;
             overflow: hidden;
+            width: 100%;
         }
+        html, body {
+  overflow-x: hidden;
+}
+        .hero .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
         
         .hero::before {
             content: '';
@@ -1380,6 +1389,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 </body>
 
 </html>
+
 
 
 
